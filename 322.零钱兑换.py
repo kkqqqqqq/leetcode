@@ -18,6 +18,7 @@ class Solution:
                 dp[i] = min (dp[i],dp[i-coin]+1)
         if dp[amount] == amount+1:
             return -1
+        print(dp)
         return dp[amount] 
         
         
