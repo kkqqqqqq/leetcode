@@ -19,6 +19,7 @@ class Solution:
         
         dp =[[False]*(ssum+1) for _ in range(0,n)]
         
+        # 不选也是一个解法
         for i in range(0,n):
             dp[i][0] = True
         
