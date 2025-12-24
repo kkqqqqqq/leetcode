@@ -8,6 +8,8 @@
 # @lc code=start
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
+        n=len(prices)
+        dp = [[0] * n for _ in range(2)]
         
 # @lc code=end
 
